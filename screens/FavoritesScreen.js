@@ -1,14 +1,23 @@
 import React from "react";
+import { View, StyleSheet } from "react-native";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
+import { useSelector } from "react-redux";
 
 import CustomHeaderButton from "../components/CustomHeaderButton";
 import RecipeList from "../components/RecipeList";
-import { RECIPES } from "../data/dummy-data";
+import DefaultText from "../components/DefaultText";
 
 const FavoritesScreen = (props) => {
-  const favRecipes = RECIPES.filter(
-    (recipe) => recipe.id === "m1" || recipe.id === "m2"
-  );
+  const favRecipes = useSelector((state) => state.recipes.favoriteRecipes);
+
+  if (favRecipes.length === 0 || !favRecipes) {
+    return (
+      <View style={styles.content}>
+        <DefaultText>No favorite recipes found. Start adding some!</DefaultText>
+      </View>
+    );
+  }
+
   return <RecipeList listData={favRecipes} navigation={props.navigation} />;
 };
 
@@ -28,5 +37,13 @@ FavoritesScreen.navigationOptions = (navData) => {
     ),
   };
 };
+
+const styles = StyleSheet.create({
+  content: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});
 
 export default FavoritesScreen;

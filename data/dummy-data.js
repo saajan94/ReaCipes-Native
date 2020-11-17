@@ -21,7 +21,7 @@ export const RECIPES = [
     "Spaghetti with Tomato Sauce",
     "Affordable",
     "Simple",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    "https://media.istockphoto.com/photos/spaghetti-bolognese-picture-id636746848?k=6&m=636746848&s=612x612&w=0&h=1tvtfjCy-Z43R66AQkSsvklBnDfJTBKu_b84Fxzxscs=",
     20,
     [
       "4 Tomatoes",
@@ -78,7 +78,7 @@ export const RECIPES = [
     "Classic Hamburger",
     "Pricey",
     "Simple",
-    "https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg",
+    "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F462740%2Fred-robin-burger-gourmet-cheeseburger.jpg&w=700&op=resize",
     45,
     [
       "300g Cattle Hack",
@@ -105,8 +105,8 @@ export const RECIPES = [
     "m4",
     ["c4"],
     "Wiener Schnitzel",
-    "luxurious",
-    "challenging",
+    "Luxurious",
+    "Challenging",
     "https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg",
     60,
     [
@@ -138,9 +138,9 @@ export const RECIPES = [
     "m5",
     ["c2", "c5", "c10"],
     "Salad with Smoked Salmon",
-    "luxurious",
+    "Luxurious",
     "Simple",
-    "https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg",
+    "https://previews.123rf.com/images/silatip/silatip1610/silatip161000134/63767319-modern-style-smoked-salmon-salad-with-balsamic-dressing-in-ceramic-dish.jpg",
     15,
     [
       "Arugula",
@@ -162,7 +162,7 @@ export const RECIPES = [
     ],
     true,
     false,
-    true,
+    false,
     true
   ),
 
@@ -171,7 +171,7 @@ export const RECIPES = [
     ["c6", "c10"],
     "Delicious Orange Mousse",
     "Affordable",
-    "hard",
+    "Hard",
     "https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg",
     240,
     [
@@ -205,7 +205,7 @@ export const RECIPES = [
     "Pancakes",
     "Affordable",
     "Simple",
-    "https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg",
+    "https://media.istockphoto.com/photos/pancakes-with-berries-and-maple-syrup-picture-id161170090?k=6&m=161170090&s=612x612&w=0&h=jFpr-OG6-dseBJrQ1Duu9ynlXiK9h9UYXfrT40WJAaA=",
     20,
     [
       "1 1/2 Cups all-purpose Flour",
@@ -233,8 +233,8 @@ export const RECIPES = [
     ["c8"],
     "Creamy Indian Chicken Curry",
     "Pricey",
-    "challenging",
-    "https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg",
+    "Challenging",
+    "https://st2.depositphotos.com/1328914/5423/i/600/depositphotos_54235137-stock-photo-indian-chicken-curry.jpg",
     35,
     [
       "4 Chicken Breasts",
@@ -264,8 +264,8 @@ export const RECIPES = [
     ["c9"],
     "Chocolate Souffle",
     "Affordable",
-    "hard",
-    "https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg",
+    "Hard",
+    "https://media.istockphoto.com/photos/chocolate-souffles-in-white-ramekin-dishes-picture-id183804744?k=6&m=183804744&s=612x612&w=0&h=i1nQoeruME6s2qHuMrGwdiIi3g7gXhz29ZS4d1PbIK0=",
     45,
     [
       "1 Teaspoon melted Butter",
@@ -309,7 +309,7 @@ export const RECIPES = [
     "m10",
     ["c2", "c5", "c10"],
     "Asparagus Salad with Cherry Tomatoes",
-    "luxurious",
+    "Luxurious",
     "Simple",
     "https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg",
     30,
